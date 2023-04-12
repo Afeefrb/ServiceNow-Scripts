@@ -12,7 +12,6 @@ gr.addActiveQuery();
 gr.setLimit(5);
 gr.query();
 
-
 while (gr.next()){
    gs.log("The incident number is" + gr.number);
 }
