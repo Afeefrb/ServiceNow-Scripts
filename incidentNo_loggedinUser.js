@@ -1,5 +1,5 @@
 /**
-[Client Script] 
+[Client Script: onLoad] 
 When any incident record is opened, when the form loads, show an info message about the current incident number and the logged in user
 **/
 
