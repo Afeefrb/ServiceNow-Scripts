@@ -5,7 +5,7 @@ When any incident record is opened or created, when the priority of the incident
 
 // 1. All > System Definition > Client Scripts : New, OR
 // 2. Incident List > List context menu > Configure > Client Scripts 
-// 3. Table: [incident], Type: onChange, Field name Priority
+// 3. Table: [incident], Type: onChange, Field name: Priority
 // 4. Script:
 
 function onChange(control, oldValue, newValue, isLoading, isTemplate){
