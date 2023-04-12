@@ -15,4 +15,5 @@ function onLoad() {
 }
 
 // 5. All > Incident > All : Click on an Incident Form
-// 6. Output: The incident number is INC0000054 and the logged in user is System Administrator
+
+//Output: The incident number is INC0000054 and the logged in user is System Administrator
