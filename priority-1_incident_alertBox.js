@@ -1,5 +1,5 @@
 /**
-[Client Script] 
+[Client Script: onChange] 
 When any incident record is opened or created, when the priority of the incident is changed to 1, show an alert box.
 **/
 
