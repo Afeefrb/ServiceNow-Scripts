@@ -20,5 +20,6 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate){
 }
 
 // 5. All > Incident > All : Click on an Incident Form
-// 6. Output: Alert box pops up => "This is a P1 incident!"
+
+//Output: Alert box pops up => "This is a P1 incident!"
 // Note: The alert box pops up before the priority value is changed. When “Ok” is clicked and the box is closed, then the priority value changes
