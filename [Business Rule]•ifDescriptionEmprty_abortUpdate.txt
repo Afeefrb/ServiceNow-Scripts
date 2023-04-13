@@ -1,0 +1,16 @@
+/**
+[Business Rule]
+If Incident description is empty, abort the update action before inserting/updating
+**/
+
+1. All > System Definition > Business Rules : New
+2. Table: Incident
+3. Tabs: 
+When to run: before - insert, update; CONDITION: [Incident description] [is empty]
+Action: Add message, abort action, message: “Description can’t be empty”
+
+4. All > Incidents > Create new OR incident.do {OR} All > Incidents > All
+5. Fill out details with short description included
+6. Submit OR Save/Update 
+
+Output: The record will not be submitted, and a blue info message will appear: “Description can’t be empty” at the top of the form. And a red error message will appear: “Invalid update
