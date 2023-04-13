@@ -1,0 +1,15 @@
+[Business Rule]
+If Incident description is empty, make it same as Short description
+
+
+1. All > System Definition > Business Rules : New
+2. Table: Incident
+3. Tabs: 
+When to run: insert; CONDITION: [Incident description] [is empty]
+Action: Incident description [same as] Short description
+
+4. All > Incidents > Create new OR incident.do
+5. Fill out details with short description included
+6. Save/Submit
+
+Output: The incident description will be populated with short description
