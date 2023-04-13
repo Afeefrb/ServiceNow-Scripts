@@ -7,9 +7,9 @@ When to run: before - insert, update, query; Priority is 1-Critical
 Action: Assigned to - Safa Fatima
 
 **3. New Incident Record:**
-  a. All > Incident > Create New OR incident.do <br/>
+  a. All > Incident > Create New OR incident.do 
   b. Make Priority = 1 <br/>
-  c. No changes in Assigned to field value <br/>
+  c. No changes in Assigned to field value 
   d. Save OR Submit the record
   e. Result: Assigned to - Safa Fatima
   f. Note: Even if you Assigned to someone else, once you save/submit, it will be assigned to Safa
