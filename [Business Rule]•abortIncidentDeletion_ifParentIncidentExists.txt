@@ -1,0 +1,17 @@
+/**
+[Business Rule]
+If a child incident has a parent incident, abort deleting the child incident
+**/
+
+1. All > System Definition > Business Rules : New
+2. Table: Incident
+3. Tabs: 
+When to run: before - delete; CONDITION: [Parent Incident] [is not empty]
+Action: Abort action
+
+4. Create a Parent Incident, create a child incident
+a. In child incident’s ‘Related records’ tab, refer the Parent incident
+5. Try to delete the child incident. 
+
+Result:
+Delete Confirmation box will come. Click on Ok. The deletion will be aborted and a blue info box will appear in the top of the form: “Child incident can't be deleted. Parent incident exists.”
