@@ -1,4 +1,4 @@
-<h1>ServiceNow-Scripts</h1>
+<h1>ServiceNow Scripts</h1>
 
 Client Scripts <br>
 UI Polices <br>
