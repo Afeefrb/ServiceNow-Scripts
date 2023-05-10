@@ -1,0 +1,20 @@
+/**
+[UI Policy]
+When an incident short desc contains "SAP", make desc mandatory. 
+**/
+
+1. All > System UI > UI Policies > New
+2. UI Policy Form:
+Table: incident
+When to apply: [Short Description] [contains] [SAP], onLoad (after submit/save/update)
+Click on Save
+The UI Policy Actions will open up in related links
+UI Policy Actions > New
+Field name: Description, Mandatory: true
+
+3. Open a new or old form
+In short desc, add “SAP” and save/update it
+Output: The description field will become mandatory after form load
+
+Note1: In UI Policy form if the onLoad is not checked, the UI Policy is executed immediately
+Note2: In UI Policy Actions, if you tick “Clear if true”, the value for the selected field name will clear it when the condition in When to Apply is met.
