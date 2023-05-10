@@ -1,0 +1,18 @@
+/**
+[Email Notification]
+When an incident short desc contains "SAP", make desc mandatory. 
+**/
+
+1. All > System Notification > Email > Notifications >  New
+
+2. Notification form opens:
+a. When to send: Record is inserted or updated, Conditions: [Caller] [is] [Ashley Parker]
+b. Who will receive: Users - Ashley Parker, System Admin
+c. What it will contain - Message: Thanks for calling and reporting an incident Caller: ${caller_id}
+d. Save the form
+
+3. Open a new incident, select the Caller as Ashley Parker, Sumit/Save the form
+
+4. All > System Logs > Emails
+
+Output: You will see the email notifications were sent out to the users
