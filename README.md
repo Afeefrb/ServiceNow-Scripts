@@ -1,6 +1,6 @@
 <h1>ServiceNow Scripts</h1>
 
-<h2> Total Scripts: 36 </h2>
+<h2> Total Scripts:  </h2>
 
 Client Scripts <br>
 UI Polices <br>
